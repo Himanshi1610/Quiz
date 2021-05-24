@@ -42,10 +42,8 @@ class Login:
 				fp = open('files/User.txt','r')
 				x = fp.readlines()
 				fp.close()
-				print(x)
 				x = [x[i].split(';') for i in range(len(x))]
 				x.sort(key = lambda x:x[3])
-				print(x)
 				if len(x)>10:
 					n = 10
 				else:
