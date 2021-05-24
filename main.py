@@ -1,5 +1,5 @@
 import os
-	system("cls")
+system("cls")
 
 from info import admin_setup
 from info import Login
