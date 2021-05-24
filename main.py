@@ -1,3 +1,6 @@
+import os
+	system("cls")
+
 from info import admin_setup
 from info import Login
 from info import User
