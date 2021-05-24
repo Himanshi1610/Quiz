@@ -125,7 +125,6 @@ class User:
 				x = fp.readlines()
 				fp.close()
 				x = [x[i].split(';') for i in range(len(x))]
-				print(x)
 				fp = open('files/User.txt','w')
 				for i in range(len(x)):
 					x[i][2] = int(x[i][2])
